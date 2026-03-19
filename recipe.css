@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adds space between image and content */
+  }
+  
+  .image-section img {
+    max-width: 400px; /* Adjust image size */
+    height: auto;
+  }
+  
+  .text-section {
+    flex: 1; /* Takes remaining space */
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  header {
+    background-color: #ff6600; /* Orange color for header */
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.star-rating input {
+    display: none; /* Hide radio input */
+}
+
+.star-rating label {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffc107; /* Highlight in gold */
+}
+.save-btn {
+    background-color: #ff6600; /* Green */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .save-btn:hover {
+    background-color: #ff6600; /* Darker Green */
+  }
+  
+  /* Submit Rating Button */
+  .rate-btn {
+    background-color: #ff6600; /* Blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rating-btn:hover {
+    background-color: #ff6600; /* Darker Blue */
+  }
+  
+
+  
