@@ -4,4 +4,4 @@ Developed Foodie Finder, a full-stack web app for discovering recipes with nutri
 
 ![Login](screenshots/login.png)
 ![Home](screenshots/home.png)
-![Login](screenshots/recipes.png)
+![Recipes](screenshots/recipes.png)
